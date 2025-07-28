@@ -1,5 +1,6 @@
 ---
 # Source: opentelemetry-demo/templates/component.yaml
+# changing
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -31,7 +32,7 @@ spec:
       serviceAccountName: opentelemetry-demo
       containers:
         - name: productcatalogservice
-          image: oladayur/product-catalog:16580183743
+          image: oladayur/product-catalog:13134113508
           imagePullPolicy: IfNotPresent
           ports:
             
